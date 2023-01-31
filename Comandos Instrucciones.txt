@@ -1,0 +1,46 @@
+
+git init
+git commit -m "mensaje con cambios que se hicieron"
+git add . 
+
+git status
+
+git commit -m 'added some files (descriptions of changes)'
+
+git add .
+
+pwd (print working directory)
+cd File
+cd ..  (go back on path)
+rm file_name (para borrar archivos)
+ls (para ver que hay en la carpeta)
+touch file_name (con esto puedo crear archivos)
+
+
+git add . 
+git commit -m 'added some files'
+
+
+TO CHANGE TO A DIFFERENT BRANCH:
+ -> git checkout -b new_name_of_new_branch
+
+git merge master
+
+git checkout [name of the branch] -- to change from one branch to another.
+
+
+
+
+…or create a new repository on the command line
+echo "# Instructions-for-Git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JavierPadillah/Instructions-for-Git.git
+git push -u origin main
+
+git push origin [name of the branch]
+
+
+
